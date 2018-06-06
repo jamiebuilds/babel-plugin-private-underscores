@@ -1,0 +1,31 @@
+{
+  "name": "babel-plugin-private-underscores",
+  "version": "0.0.0",
+  "description": "Make _classMembers 'private' using symbols",
+  "main": "index.js",
+  "repository": "jamiebuilds/babel-plugin-private-underscores",
+  "author": "Jamie Kyle <me@thejameskyle.com>",
+  "license": "MIT",
+  "keywords": [
+    "babel",
+    "plugin",
+    "class",
+    "members",
+    "properties",
+    "methods",
+    "private"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "flow && ava"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-syntax-class-properties": "^6.13.0",
+    "flow-bin": "^0.73.0",
+    "strip-indent": "^2.0.0"
+  }
+}
