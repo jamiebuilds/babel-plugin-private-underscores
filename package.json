@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-private-underscores",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Make _classMembers 'private' using symbols",
   "main": "index.js",
   "repository": "jamiebuilds/babel-plugin-private-underscores",
