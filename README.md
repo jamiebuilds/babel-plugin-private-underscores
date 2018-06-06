@@ -2,10 +2,6 @@
 
 > Make _classMembers 'private' using symbols
 
-- {feature1}
-- {feature2}
-- {feature3}
-
 ## Install
 
 ```sh
