@@ -132,6 +132,23 @@ test('expression', testPluginMacro, {
   `
 });
 
+test('missing refs', testPluginMacro, {
+  input: `
+    class Foo {
+      constructor() {
+        this._method();
+      }
+    }
+  `,
+  expected: `
+    class Foo {
+      constructor() {
+        this._method();
+      }
+    }
+  `
+});
+
 test('subclass', testPluginMacro, {
   input: `
     class Foo {
